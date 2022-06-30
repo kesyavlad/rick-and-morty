@@ -30,11 +30,11 @@
 
 .customText:hover{
     position: relative;
-    margin-top: -177px;
+    margin-top: -210px;
     color: white;
     background: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent);
     width: 301px;
-    height: 177px;
+    height: 185px;
     border-radius: 10px;
 
 }
