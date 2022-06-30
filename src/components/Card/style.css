@@ -1,7 +1,7 @@
 .card{
     box-shadow: 5px 5px 20px black;
     border-radius: 10px;
-    margin: 10px;
+    margin: 15px;
     width: 300px;
     overflow: hidden;
     height: 350px
@@ -20,19 +20,21 @@
 
 .customText{
     margin-top: -64px;
-    color: white;
-    background: rgba(10, 2, 12, 0.5);
+    color: rgba(255, 255, 255, 0.6);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent);
     width: 301px;
     height: 177px;
     border-radius: 10px;
+    transition: 0.5s;
 }
 
 .customText:hover{
-    position: absolute;
+    position: relative;
     margin-top: -177px;
     color: white;
-    background: rgba(10, 2, 12, 0.5);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent);
     width: 301px;
     height: 177px;
     border-radius: 10px;
+
 }
