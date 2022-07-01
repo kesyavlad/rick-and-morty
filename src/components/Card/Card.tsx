@@ -1,10 +1,12 @@
-import React, {FC} from 'react';
+import React, {FC,useState} from 'react';
 import "../Card/style.css"
 import {Charter} from "../../types/types";
 import More from '../../assets/images/more.png';
+import ModalDialog from "../ModalWindow/Modal";
 
 interface CardProps {
     charter : Charter
+
 }
 
 const Card: FC<CardProps> = ({charter}) => {
@@ -16,11 +18,13 @@ const Card: FC<CardProps> = ({charter}) => {
                         <h1 >{charter.name}</h1>
                         <p>Status: {charter.status}</p>
                         <p>Gender: {charter.gender}</p>
-                        <img
-                            src={More}
-                            onClick={()=>{console.log("work")}}
-                            style={{marginTop:"-10%"}}
-                        />
+                        <ModalDialog name={charter.name} img = {charter.image} status={charter.status} >
+                            <img
+                                src={More}
+                                style={{marginTop:"-10%", cursor: "pointer"}}
+                                alt="moreButton"
+                            />
+                        </ModalDialog>
                     </div>
                 </div>
 
