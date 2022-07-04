@@ -9,3 +9,9 @@
     width: 100%;
     height: 33px;
 }
+.titleText{
+    margin-left:auto;
+    margin-right:auto;
+    width:7em;
+    padding-top:0;
+}

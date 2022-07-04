@@ -10,20 +10,19 @@ import { useSearchParams } from 'react-router-dom';
 
 const Index = () => {
   const [searchParams, setSearchParams] = useSearchParams();
-  const [charters, setCharstetrs] = useState<Charter[]>([]);
+  const [charters, setCharacters] = useState<Charter[]>([]);
   const [page, setPage] = useState(searchParams.get('page') || '1');
   const [pageTotal, setPageTotal] = useState(0);
   const [searchCustom, setSearch] = useState(searchParams.get('searchCustom') || '');
-
   const getData = (pageNumber: string, search: string) => {
     axios
       .get(`https://rickandmortyapi.com/api/character/?page=${pageNumber}&name=${search}`)
       .then(({ data }) => {
-        setCharstetrs(data.results);
+        setCharacters(data.results);
         setPageTotal(data.info.pages);
       })
       .catch(() => {
-        setCharstetrs([]);
+        setCharacters([]);
         setPageTotal(0);
       });
   };
@@ -53,7 +52,7 @@ const Index = () => {
           />
         )}
       </div>
-      {charters.length ? <CardList users={charters} /> : <div>No results</div>}
+      {charters.length ? <CardList users={charters} /> : <div className="noResult">No results</div>}
     </div>
   );
 };
