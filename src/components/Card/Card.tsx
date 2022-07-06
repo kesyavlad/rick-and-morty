@@ -21,8 +21,7 @@ const Card: FC<CardProps> = ({ charter }) => {
             name={charter.name}
             img={charter.image}
             status={charter.status}
-            episodes={charter.episode}
-            charter={charter}>
+            episodes={charter.episode}>
             <img src={More} className="styleMore" alt="moreButton" />
           </ModalDialog>
         </div>

@@ -1,8 +1,6 @@
 .flexElementCustom{
     display: flex;
     justify-content: center;
-    position: sticky;
-    top: 130px;
     background: white;
     width: 100%;
 }
@@ -11,4 +9,5 @@
     margin-right: auto;
     width: 277px;
     font-size: 58px;
+    color: white;
 }

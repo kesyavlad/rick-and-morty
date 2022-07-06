@@ -1,18 +1,18 @@
 import React from 'react';
 import './style.css';
-import Index from './pages/Сharacters';
-import { Routes, Route, Link } from 'react-router-dom';
+import Characters from './pages/Сharacters';
+import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
-import Planets from './pages/Planets';
 import Error from './pages/404';
+import Menu from './components/Menu';
 
 const App = () => {
   return (
     <div className="App">
       <Routes>
-        <Route path="/" element={<Home />}>
-          <Route path="characters" element={<Index />} />
-          <Route path="planets" element={<Planets />} />
+        <Route path="" element={<Menu />}>
+          <Route path="home" element={<Home />} />
+          <Route path="characters" element={<Characters />} />
           <Route path="*" element={<Error />} />
         </Route>
       </Routes>

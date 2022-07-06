@@ -21,7 +21,7 @@
 .styleEpisode{
     height: 260px;
     color: white;
-    overflow: scroll;
+    overflow: auto;
 }
 .styleMore{
     margin-top: -10%;

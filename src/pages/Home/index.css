@@ -1,0 +1,16 @@
+.titleText{
+    margin-left:auto;
+    margin-right:auto;
+    padding-top:0;
+    font-size: 3em;
+    color: #8BCF21;
+}
+html{
+    background: url("../../assets/images/Backgraund.jpeg");
+    background-size: cover;
+
+}
+.flexElement{
+    display: flex;
+    justify-content: space-around;
+}

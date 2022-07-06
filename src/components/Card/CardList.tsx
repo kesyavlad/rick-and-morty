@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import { Charter, Episode } from '../../types/types';
+import { Charter } from '../../types/types';
 import '../Card/style.css';
 import Card from './Card';
 

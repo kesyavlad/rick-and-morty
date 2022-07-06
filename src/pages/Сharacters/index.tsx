@@ -8,7 +8,7 @@ import CardList from '../../components/Card/CardList';
 import Title from '../../components/Title/Title';
 import { useSearchParams } from 'react-router-dom';
 
-const Index = () => {
+const Characters = () => {
   const [searchParams, setSearchParams] = useSearchParams();
   const [charters, setCharacters] = useState<Charter[]>([]);
   const [page, setPage] = useState(searchParams.get('page') || '1');
@@ -31,13 +31,12 @@ const Index = () => {
     setSearchParams({ page: '1', searchCustom });
     getData('1', searchCustom);
     setPage('1');
-  }, [searchCustom]);
+  }, [searchCustom, setSearchParams]);
 
   useEffect(() => {
     setSearchParams({ page, searchCustom });
     getData(page, searchCustom);
   }, [page]);
-
   return (
     <div>
       <Title search={searchCustom} setSearch={setSearch} />
@@ -57,4 +56,4 @@ const Index = () => {
   );
 };
 
-export default Index;
+export default Characters;

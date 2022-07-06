@@ -1,13 +1,13 @@
-.text{
-    font-size: 25px;
-    position: sticky;
-    top: 0;
-    background: white;
-    margin-top: -24px;
-}
+
 .search{
     width: 100%;
+    background: black;
     height: 33px;
+    color: green;
+    border: 2px solid;
+    outline: none;
+    box-shadow: none;
+    border-radius: 9px;
 }
 .titleText{
     margin-left:auto;

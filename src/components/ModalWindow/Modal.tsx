@@ -1,9 +1,9 @@
-import React, { FC, useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Modal from 'react-modal';
 import './index.css';
 import axios from 'axios';
 
-const ModalDialog = ({ name, children, img, status, charter, episodes }: any) => {
+const ModalDialog = ({ name, children, img, status, episodes }: any) => {
   const [modalIsOpen, setIsOpen] = React.useState(false);
   const [allEpisodes, setAllEpisodes] = useState([] as string[]);
 
@@ -14,10 +14,11 @@ const ModalDialog = ({ name, children, img, status, charter, episodes }: any) =>
         .get(`https://rickandmortyapi.com/api/episode/${episodesIds.join(',')}`)
         .then((res: any) => {
           if (Array.isArray(res.data)) {
-            const eps = res.data.map((ep: any) => ep.name);
+            const eps = res.data.map((ep: any) => ep.episode + ' ' + ep.name);
             setAllEpisodes([...eps]);
           } else {
-            setAllEpisodes([res.data.name]);
+            const season = res.data.episode + ' ' + res.data.name;
+            setAllEpisodes([season]);
           }
         });
     }
@@ -30,7 +31,7 @@ const ModalDialog = ({ name, children, img, status, charter, episodes }: any) =>
     setIsOpen(false);
   };
 
-  const listItems = allEpisodes.map((link: any) => <li>{link}</li>);
+  const listItems = allEpisodes.map((name: string) => <li key={name}>{name}</li>);
   return (
     <div>
       <div onClick={openModal}>{children}</div>
@@ -58,13 +59,14 @@ const ModalDialog = ({ name, children, img, status, charter, episodes }: any) =>
             alignContent: 'center',
             alignItems: 'center',
             justifyContent: 'center',
+            overflowX: 'auto',
             zIndex: 999
           }
         }}
         contentLabel="Example Modal">
         <h2 className={'textColorYellow'}>{name}</h2>
         <div className={'blockFlex'}>
-          <img src={img} />
+          <img src={img} alt="Characters" />
           <div>
             <h3 className="textColorWhite">Status : {status}</h3>
             <h3 className="textColorWhite">Episodes:</h3>

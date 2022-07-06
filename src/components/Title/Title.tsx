@@ -5,7 +5,6 @@ const Title = ({ search, setSearch }: any) => {
   return (
     <>
       <div className="text">
-        <h1 className="titleText">Rick and Morty</h1>
         <input
           placeholder="Search characters"
           className="search"
