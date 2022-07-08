@@ -1,0 +1,11 @@
+.search{
+    width: 100%;
+    background: black;
+    height: 33px;
+    color: green;
+    border: 2px solid;
+    outline: none;
+    box-shadow: none;
+    border-radius: 9px;
+}
+

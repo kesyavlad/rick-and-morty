@@ -1,14 +1,25 @@
 import React from 'react';
-import { Link, Outlet } from 'react-router-dom';
+import { NavLink, Outlet } from 'react-router-dom';
+import './index.css';
 
 const Menu = () => {
   return (
-    <div>
-      <Link to="/home">Home</Link>
-      <Link to="/characters">Characters</Link>
+    <>
       <div className="titleText">Rick and Morty</div>
+      <div className="sizeMenu">
+        <NavLink
+          to="/home"
+          className={({ isActive }) => (isActive ? 'styleButtonMenuOn' : 'styleButtonMenuOff')}>
+          Home
+        </NavLink>
+        <NavLink
+          to="/characters"
+          className={({ isActive }) => (isActive ? 'styleButtonMenuOn' : 'styleButtonMenuOff')}>
+          Characters
+        </NavLink>
+      </div>
       <Outlet />
-    </div>
+    </>
   );
 };
 

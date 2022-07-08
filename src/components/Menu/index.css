@@ -1,0 +1,32 @@
+.sizeMenu{
+    width: 100px;
+    margin-bottom: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.styleButtonMenuOn{
+    font-size: 21px;
+    color: #8BCF21;
+    border: 2px solid #8BCF21;
+    border-radius: 10px;
+    padding: 5px;
+    margin-right: 13px;
+    text-decoration: none;
+}
+.titleText{
+    margin-left:auto;
+    margin-right:auto;
+    width:7em;
+    padding-top:0;
+    padding-left: 2em;
+    font-size: 3em;
+    color: #8BCF21;
+}
+.styleButtonMenuOff{
+    font-size: 21px;
+    color: #8BCF21;
+    padding: 5px;
+    margin-right: 13px;
+    text-decoration: none;
+}
+

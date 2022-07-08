@@ -8,7 +8,7 @@ import Menu from './components/Menu';
 
 const App = () => {
   return (
-    <div className="App">
+    <>
       <Routes>
         <Route path="" element={<Menu />}>
           <Route path="home" element={<Home />} />
@@ -16,7 +16,7 @@ const App = () => {
           <Route path="*" element={<Error />} />
         </Route>
       </Routes>
-    </div>
+    </>
   );
 };
 

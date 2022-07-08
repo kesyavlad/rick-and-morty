@@ -5,7 +5,7 @@ import './index.css';
 import { Pagination } from '@mui/material';
 import { Charter } from '../../types/types';
 import CardList from '../../components/Card/CardList';
-import Title from '../../components/Title/Title';
+import Search from '../../components/Search';
 import { useSearchParams } from 'react-router-dom';
 
 const Characters = () => {
@@ -38,8 +38,8 @@ const Characters = () => {
     getData(page, searchCustom);
   }, [page]);
   return (
-    <div>
-      <Title search={searchCustom} setSearch={setSearch} />
+    <>
+      <Search search={searchCustom} setSearch={setSearch} />
       <div className="flexElementCustom">
         {!!pageTotal && (
           <Pagination
@@ -48,11 +48,12 @@ const Characters = () => {
             onChange={(_, num) => setPage(num.toString())}
             showFirstButton
             showLastButton
+            shape="rounded"
           />
         )}
       </div>
       {charters.length ? <CardList users={charters} /> : <div className="noResult">No results</div>}
-    </div>
+    </>
   );
 };
 

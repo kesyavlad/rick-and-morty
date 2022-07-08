@@ -1,16 +1,19 @@
-.titleText{
-    margin-left:auto;
-    margin-right:auto;
-    padding-top:0;
-    font-size: 3em;
-    color: #8BCF21;
+
+.flexElement{
+    display: flex;
+    justify-content: space-around;
+}
+.styleText{
+    box-sizing: border-box;
+    color: white;
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid #8BCF21;
+    font-size: 20px;
+    padding: 15px;
 }
 html{
     background: url("../../assets/images/Backgraund.jpeg");
     background-size: cover;
 
-}
-.flexElement{
-    display: flex;
-    justify-content: space-around;
 }

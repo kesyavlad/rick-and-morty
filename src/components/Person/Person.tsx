@@ -10,7 +10,7 @@ interface fildPersone {
 const Person: FC<fildPersone> = ({ img, titleName, textBody }) => {
   return (
     <div className="flexAbout">
-      <img src={img} style={{ position: 'relative' }} />
+      <img src={img} style={{ position: 'relative' }} alt="person" />
       <div className="styleAbout">
         <h1>{titleName}</h1>
         <p className="textBlock">{textBody}</p>
