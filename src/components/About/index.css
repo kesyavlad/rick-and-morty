@@ -135,9 +135,6 @@ a:hover {
         flex: 0 1 100%;
         font-size: 20px;
     }
-    #root{
-        width: fit-content;
-    }
     .styleButton{
         background: #b8f72b;
         font-size: 20px;

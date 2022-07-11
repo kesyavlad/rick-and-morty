@@ -15,5 +15,6 @@
 html{
     background: url("../../assets/images/Backgraund.jpeg");
     background-size: cover;
-
+    min-width: 440px;
 }
+
