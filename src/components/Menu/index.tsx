@@ -17,6 +17,11 @@ const Menu = () => {
           className={({ isActive }) => (isActive ? 'styleButtonMenuOn' : 'styleButtonMenuOff')}>
           Characters
         </NavLink>
+        <NavLink
+          to="/about"
+          className={({ isActive }) => (isActive ? 'styleButtonMenuOn' : 'styleButtonMenuOff')}>
+          About Me
+        </NavLink>
       </div>
       <Outlet />
     </>
