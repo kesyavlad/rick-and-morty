@@ -8,7 +8,7 @@ const Menu = () => {
       <div className="titleText">Rick and Morty</div>
       <div className="sizeMenu">
         <NavLink
-          to="/home"
+          to="/"
           className={({ isActive }) => (isActive ? 'styleButtonMenuOn' : 'styleButtonMenuOff')}>
           Home
         </NavLink>
