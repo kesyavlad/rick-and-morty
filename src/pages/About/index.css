@@ -127,7 +127,7 @@ a:hover {
     }
     .styleBlock{
         width: 100%;
-        border: 2px solid #b8f72b;
+        border: 2px solid #699f15;
         background: rgb(0,0,0,0.6);
         border-radius: 10px;
         margin: 10px;
@@ -136,7 +136,7 @@ a:hover {
         font-size: 20px;
     }
     .styleButton{
-        background: #b8f72b;
+        background: #699f15;
         font-size: 20px;
         border: 0;
         border-radius: 10px;

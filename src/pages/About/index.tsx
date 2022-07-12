@@ -32,7 +32,9 @@ const About = () => {
             </a>
           </p>
           <button className="styleButton">
-            <a href="src/assets/images/Kesia_CV.pdf" download>
+            <a
+              href="https://drive.google.com/uc?export=download&id=1YaGyq7A2ugY0yHb9XU3sHpgBarzd13s9"
+              download>
               Download CV
             </a>
           </button>
