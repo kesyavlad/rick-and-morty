@@ -6,31 +6,35 @@ const About = () => {
       <div className="flexBlock">
         <div>
           <div className="imgSize"></div>
-          <h1 className="styleContacts">About me</h1>
-          <p className="textSize">
-            I am a highly motivated novice Frontend developer. I approach the creation of sites or
-            chips for it with great enthusiasm. In the process of development I always pay attention
-            to details and try to approach the task from different sides.
-          </p>
-          <h1 className="styleContacts"> Contacts: </h1>
-          <p className="styleContacts">
-            Mobile:
-            <a href="tel:+38(066)725-63-28">+38(066)725-63-28</a>
-          </p>
-          <p className="styleContacts">
-            Email:
-            <a href="mailto: kesyavlad74@gmail.com">kesyavlad74@gmail.com</a>
-          </p>
-          <p className="styleContacts">
-            GitHub:
-            <a href="https://github.com/kesyavlad">https://github.com/kesyavlad</a>
-          </p>
-          <p className="styleContacts">
-            Linkedin:
-            <a href="https://www.linkedin.com/in/vladislav-kesia-13bb28138/">
-              https://www.linkedin.com
-            </a>
-          </p>
+          <div className="styleContactNumber">
+            <h1 className="styleContacts">About me</h1>
+            <p className="textSize">
+              I am a highly motivated novice Frontend developer. I approach the creation of sites or
+              chips for it with great enthusiasm. In the process of development I always pay
+              attention to details and try to approach the task from different sides.
+            </p>
+          </div>
+          <div className="styleContactNumber">
+            <h1 className="styleContacts"> Contacts: </h1>
+            <p className="styleContacts">
+              Mobile:
+              <a href="tel:+38(066)725-63-28">+38(066)725-63-28</a>
+            </p>
+            <p className="styleContacts">
+              Email:
+              <a href="mailto: kesyavlad74@gmail.com">kesyavlad74@gmail.com</a>
+            </p>
+            <p className="styleContacts">
+              GitHub:
+              <a href="https://github.com/kesyavlad">https://github.com/kesyavlad</a>
+            </p>
+            <p className="styleContacts">
+              Linkedin:
+              <a href="https://www.linkedin.com/in/vladislav-kesia-13bb28138/">
+                https://www.linkedin.com
+              </a>
+            </p>
+          </div>
           <button className="styleButton">
             <a
               href="https://drive.google.com/uc?export=download&id=1YaGyq7A2ugY0yHb9XU3sHpgBarzd13s9"

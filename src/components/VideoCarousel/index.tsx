@@ -9,7 +9,7 @@ const VideoCarousel = () => {
   const slider = TrailerInfo.map((trailer) => {
     return (
       <div>
-        <ReactPlayer url={trailer.src} pip={true} controls={true} width="100%" />
+        <ReactPlayer url={trailer.src} pip={true} controls={true} width={'100%'} />
         <p style={{ color: 'white' }}>Trailer {trailer.title}</p>
       </div>
     );
