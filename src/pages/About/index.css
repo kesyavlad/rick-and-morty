@@ -1,0 +1,155 @@
+.imgSize{
+    width: 285px;
+    height: 300px;
+    background: url("/src/assets/images/vlad.png");
+    background-size: cover;
+    border-radius: 200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.imgSize:hover{
+    background: url("/src/assets/images/kesia.jpeg");
+    background-size: cover;
+}
+.textColor{
+    color: #b8f72b;
+    font-size: 50px;
+    width: 321px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3{
+    color: white;
+    width: 175px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2{
+    color: white;
+}
+
+.styleContacts{
+    color: #b8f72b
+
+}
+
+.myName{
+    border-radius: 10px;
+    border: 2px solid #b8f72b;
+    height: 100px;
+    padding: 10px;
+    width: 64%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(0,0,0,0.6);
+}
+.textSize{
+    width: 256px;
+    font-size: 18px;
+    color: white;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.styleBlock{
+    width: 100%;
+    border: 2px solid #b8f72b;
+    background: rgb(0,0,0,0.6);
+    border-radius: 10px;
+    margin: 10px;
+    color: white;
+    flex: 0 1 47%;
+    font-size: 20px;
+}
+.styleButton{
+    background: #699f15;
+    font-size: 20px;
+    border: 0;
+    border-radius: 10px
+}
+.blockInformation{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+}
+.flexBlock{
+    display: flex;
+}
+@media (max-width: 1150px ) {
+    .imgSize{
+        width: 285px;
+        height: 300px;
+
+        background: url("/src/assets/images/vlad.png");
+        background-size: cover;
+        border-radius: 200px;
+    }
+    .imgSize:hover{
+        background: url("/src/assets/images/kesia.jpeg");
+        background-size: cover;
+    }
+    .textSize{
+        width: 100%;
+        font-size: 18px;
+        color: white;
+    }
+    .flexBlock{
+        display: flex;
+        flex-direction: column;
+    }
+    .myName{
+        border-radius: 10px;
+        border: 2px solid #b8f72b;
+        height: 100px;
+        padding: 10px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .styleBlock{
+        width: 100%;
+        border: 2px solid #b8f72b;
+        background: rgb(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 10px;
+        color: white;
+        font-size: 20px;
+    }
+    .blockInformation{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 0;
+    }
+    .styleBlock{
+        width: 100%;
+        border: 2px solid #699f15;
+        background: rgb(0,0,0,0.6);
+        border-radius: 10px;
+        margin: 10px;
+        color: white;
+        flex: 0 1 100%;
+        font-size: 20px;
+    }
+    .styleButton{
+        background: #699f15;
+        font-size: 20px;
+        border: 0;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        width: 98%;
+        height: 60px;
+    }
+    .styleContactNumber{
+        background-color: rgb(0,0,0,0.6);
+        border: 2px solid #699f15;
+        border-radius: 10px;
+        margin: 5px 10px 5px 10px;
+    }
+}

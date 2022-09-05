@@ -1,0 +1,13 @@
+.flexElementCustom{
+    display: flex;
+    justify-content: center;
+    background: white;
+    width: 100%;
+}
+.noResult{
+    margin-left: auto;
+    margin-right: auto;
+    width: 277px;
+    font-size: 58px;
+    color: white;
+}

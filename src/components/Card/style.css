@@ -1,0 +1,50 @@
+.card{
+    margin: 17px;
+    width: 300px;
+    overflow: hidden;
+    height: 350px;
+    border-radius: 10px;
+}
+.imgLogo{
+    width: 300px;
+    height: 100%;
+    border-radius: 10px;
+}
+.flexElement{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    margin-top: 8px;
+}
+
+.styleEpisode{
+    height: 260px;
+    color: white;
+    overflow: auto;
+}
+.styleMore{
+    margin-top: -10%;
+    cursor:pointer;
+}
+
+.customText{
+    margin-top: -64px;
+    color: rgba(255, 255, 255, 0.6);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent);
+    width: 301px;
+    height: 177px;
+    border-radius: 10px;
+    transition: 0.5s;
+    -webkit-text-stroke: 1px black;
+}
+
+.customText:hover{
+    position: relative;
+    margin-top: -210px;
+    color: white;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent);
+    width: 301px;
+    height: 185px;
+    border-radius: 10px;
+    -webkit-text-stroke: 0 white;
+}

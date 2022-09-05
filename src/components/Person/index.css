@@ -1,0 +1,30 @@
+.styleAbout{
+    color: rgba(255, 255, 255, 0.8);
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    border: 2px solid #b8f72b;
+    padding-left: 94px;
+    margin-left: -104px;
+    overflow: auto;
+    margin-bottom: 45px;
+}
+
+.flexAbout{
+    display: flex;
+    width: 500px;
+    height: 500px;
+    flex: 0 1 50%;
+}
+
+
+.textBlock{
+    font-size: 17px;
+}
+@media (max-width:1016px ) {
+    .flexAbout{
+        display: flex;
+        width: 500px;
+        height: 500px;
+        flex: 0 1 100%;
+    }
+}

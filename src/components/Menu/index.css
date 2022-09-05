@@ -1,0 +1,33 @@
+.sizeMenu{
+    display: flex;
+    justify-content: space-around;
+}
+.styleButtonMenuOn{
+    font-family: fontRick, serif;
+    font-size: 23px;
+    color: #8BCF21;
+    border: 2px solid #8BCF21;
+    border-radius: 10px;
+    padding: 5px;
+    margin-right: 13px;
+    text-decoration: none;
+}
+.titleText{
+    font-family: fontRick, serif;
+    margin-left:auto;
+    margin-right:auto;
+    width:7em;
+    padding-top:22px;
+    font-size: 3em;
+    color: #8BCF21;
+    margin-bottom: 8px;
+}
+.styleButtonMenuOff{
+    font-family: fontRick, serif;
+    font-size: 23px;
+    color: #8BCF21;
+    padding: 5px;
+    margin-right: 13px;
+    text-decoration: none;
+}
+
