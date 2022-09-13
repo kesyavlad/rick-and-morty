@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/rick-and-morty/static/css/main.626ac7f2.css",
+    "main.js": "/rick-and-morty/static/js/main.8b5c1d9e.js",
+    "static/media/season1.mp4": "/rick-and-morty/static/media/season1.75acb835cd6d3e666f1c.mp4",
+    "static/media/season3.mp4": "/rick-and-morty/static/media/season3.8ef67c6bffa4b170e581.mp4",
+    "static/media/season2.mp4": "/rick-and-morty/static/media/season2.fa5b2902255f539b2825.mp4",
+    "static/media/season5.mp4": "/rick-and-morty/static/media/season5.411ad0f9bacfaaf6e7a2.mp4",
+    "static/media/season4.mp4": "/rick-and-morty/static/media/season4.c0a4f961b75662861466.mp4",
+    "static/media/vlad.png": "/rick-and-morty/static/media/vlad.b21c7d6c24dae0618e2a.png",
+    "static/media/jerry.png": "/rick-and-morty/static/media/jerry.246d3cfeda615c7fc6fe.png",
+    "static/media/beth.png": "/rick-and-morty/static/media/beth.07b04296ad3a87f224a6.png",
+    "static/media/samer.png": "/rick-and-morty/static/media/samer.fd8e6c6b671c6740601f.png",
+    "static/media/morty.png": "/rick-and-morty/static/media/morty.2011f8eb2559b866d74b.png",
+    "static/media/kesia.jpeg": "/rick-and-morty/static/media/kesia.9340165dc8d013cc300c.jpeg",
+    "static/media/rick.png": "/rick-and-morty/static/media/rick.8f148268d5c0b960b73c.png",
+    "static/media/Backgraund.jpeg": "/rick-and-morty/static/media/Backgraund.c5ab05ab3765e63c9a62.jpeg",
+    "static/media/fontRick.ttf": "/rick-and-morty/static/media/fontRick.c3d1dfc692e3547fed16.ttf",
+    "index.html": "/rick-and-morty/index.html",
+    "main.626ac7f2.css.map": "/rick-and-morty/static/css/main.626ac7f2.css.map",
+    "main.8b5c1d9e.js.map": "/rick-and-morty/static/js/main.8b5c1d9e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.626ac7f2.css",
+    "static/js/main.8b5c1d9e.js"
+  ]
+}
